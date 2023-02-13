@@ -3,7 +3,7 @@ entries:
   px-platform-target:
   - apiVersion: v2
     appVersion: 0.0.0
-    created: "2023-02-13T14:33:43.181772+05:30"
+    created: "2023-02-13T15:37:47.408503+05:30"
     dependencies:
     - name: prometheus
       repository: https://prometheus-community.github.io/helm-charts
@@ -17,6 +17,6 @@ entries:
     name: px-platform-target
     type: application
     urls:
-    - https://raw.githubusercontent.com/dchouhan/px-platform-charts-package/main/builds/px-platform-target-2.3.0.tgz
+    - px-platform-target-2.3.0.tgz
     version: 2.3.0
-generated: "2023-02-13T14:33:43.171151+05:30"
+generated: "2023-02-13T15:37:47.394482+05:30"
