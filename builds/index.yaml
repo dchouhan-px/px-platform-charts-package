@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  px-platform-target:
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2023-02-13T14:33:43.181772+05:30"
+    dependencies:
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 15.18.0
+    - condition: external-dns.enabled
+      name: external-dns
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.12.1
+    description: A Helm chart for Portworx platform target cluster
+    digest: d23080e0356aace2b355093e459c3a60a7c7ea1694144fe370735af43ae9457f
+    name: px-platform-target
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/dchouhan/px-platform-charts-package/main/build/px-platform-target-2.3.0.tgz
+    version: 2.3.0
+generated: "2023-02-13T14:33:43.171151+05:30"
