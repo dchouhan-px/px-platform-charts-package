@@ -17,6 +17,6 @@ entries:
     name: px-platform-target
     type: application
     urls:
-    - https://raw.githubusercontent.com/dchouhan/px-platform-charts-package/main/build/px-platform-target-2.3.0.tgz
+    - https://raw.githubusercontent.com/dchouhan/px-platform-charts-package/main/builds/px-platform-target-2.3.0.tgz
     version: 2.3.0
 generated: "2023-02-13T14:33:43.171151+05:30"
